@@ -312,7 +312,7 @@ END LInt;
 ###############################################################*)
 PROCEDURE LLInt* ( LBL: ARRAY OF CHAR; LINT: LONGINT; N: LONGINT );
 BEGIN
-
+    Label( LBL );
     Out.Int( LINT, N );
 END LLInt;
 
